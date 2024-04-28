@@ -17,4 +17,4 @@ jobs:
           profile: minimal
           components: clippy, rustfmt
       - name: Run Rustfmt
-        run: make fmt
+        run: make format
