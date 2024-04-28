@@ -24,5 +24,8 @@ test:
 clean:
 	cargo clean
 
+release:
+	cargo build --release
+
 # Path: Makefile
 .PHONY: rust-version format lint build run test clean
