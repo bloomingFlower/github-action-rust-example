@@ -26,4 +26,3 @@ clean:
 
 # Path: Makefile
 .PHONY: rust-version format lint build run test clean
-```
